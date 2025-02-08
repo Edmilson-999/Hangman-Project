@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da forca</title>
+</head>
+<body>
+    <h1 id="title">Jogo da Forca</h1>
+    <div class="jogo-container">
+        <div class="forca-container">
+            <img src="img/forca0.png" width="130">
+            
+        </div>
+        <div class="letras-erradas-container">
+            <h2>Letras Erradas</h2>
+        </div>
+    </div>
+
+    <div class="palavras-secretas-container">
+        <h2>Tente Adivinhar a Palavra</h2>
+    </div>    
+    <div class="aviso-palavra-repetida">
+        Palavra ja utilizada!
+    </div>
+
+    <div class="popup-container">
+        <div class="popup">
+            <h2 id="mensagem"></h2>
+            <button id="btn-jogar" onclick="reiniciarJogo()">
+                Jogar Novamente
+            </button>
+        </div>
+    </div>
+        
+    
+</body>
+<script src="script.js"></script>
+</html>
